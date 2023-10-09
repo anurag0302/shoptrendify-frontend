@@ -48,13 +48,14 @@ const AppRoutes = () => {
         };
 
         fetchUser();
-    }, [])
+    }, [dispatch, loaction.pathname, navigate])
+
 
     if (auth.loading) {
         return (<div className='pt-16'> Loading... </div>)
     }
     return (
-        <div>
+        <div className='pt-[60px] md:pt-[50px] min-h-screen'>
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route element={<ProtectedRoute redirectPath="/login" />}>

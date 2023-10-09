@@ -1,5 +1,48 @@
+
+/* @import  url('./assets/fonts/Black.ttf');
+@import  url('./assets/fonts/Bold.ttf');
+@import  url('./assets/fonts/DemiBold.ttf');
+@import  url('./assets/fonts/Light.ttf');
+@import  url('./assets/fonts/Medium.ttf');
+@import  url('./assets/fonts/Regular.ttf'); */
+
 *{
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: "TFF-Black";   /*Can be any text*/
+  src: local("AirbnbCerealLight"),
+    url("./assets/fonts/Black.ttf") format("truetype");
+}
+@font-face {
+  font-family: "TFF-Bold";   /*Can be any text*/
+  src: local("AirbnbCerealLight"),
+    url("./assets/fonts/Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "TFF-DemiBold";   /*Can be any text*/
+  src: local("AirbnbCerealLight"),
+    url("./assets/fonts/DemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "TFF-Light";   /*Can be any text*/
+  src: local("AirbnbCerealLight"),
+    url("./assets/fonts/Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "TFF-Medium";   /*Can be any text*/
+  src: local("AirbnbCerealLight"),
+    url("./assets/fonts/Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "TFF-Regular";   /*Can be any text*/
+  src: local("AirbnbCerealLight"),
+    url("./assets/fonts/Regular.ttf") format("truetype");
+}
+
+/* body{
+  font-family: "TFF-Regular"; 
+} */
