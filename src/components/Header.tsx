@@ -22,7 +22,7 @@ function Header({ user }: HeaderProps) {
           <span className='font-semibold md:text-xl'>{SITE_NAME}</span>
         </div>
         <div className='hidden md:block'>
-          <span className='hover:cursor-pointer hover:text-cuTeal mx-2'>New Arivals</span>
+          <span className='hover:cursor-pointer hover:text-cuTeal mx-2'>New Arrivals</span>
           <span className='hover:cursor-pointer hover:text-cuTeal mx-2'>Popular</span>
           <span className='hover:cursor-pointer hover:text-cuTeal mx-2'>Featured Deals</span>
           <span className='hover:cursor-pointer hover:text-cuTeal mx-2'>Categories</span>

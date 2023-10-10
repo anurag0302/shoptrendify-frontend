@@ -6,9 +6,12 @@ export default {
       transitionDuration: {
         2000: "2000ms",
         4000: "4000ms",
-
+      },
+      backgroundImage: {
+        ttuPattern: "url('../src/assets/images/bg1top.jpg')",
       },
       colors: {
+        cuWhiteSmoke: "#f5f5f5",
         cuBgWhite: "#f3f3f1",
         cuBgLightBrown: "#efeaad",
         cuYello: "#F8FFE5",
