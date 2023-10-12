@@ -10,6 +10,11 @@ export default {
       backgroundImage: {
         ttuPattern: "url('../src/assets/images/bg1top.jpg')",
       },
+      flex: {
+        '2': '2',
+        '3': '3',
+        '4': '4',
+      },
       colors: {
         cuWhiteSmoke: "#f5f5f5",
         cuBgWhite: "#f3f3f1",

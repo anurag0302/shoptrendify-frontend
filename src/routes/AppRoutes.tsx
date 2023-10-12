@@ -10,7 +10,8 @@ import { authSelector, login, setLoading } from '../store/slices/authSlice'
 import { useNavigate, useLocation } from 'react-router-dom'
 import { AppDispatch } from '../store/store'
 import { TOKEN_NAME } from '../utils/constants'
-import Api from '../services/api'
+import Api from '../services/apis/api'
+import ProductDetails from '../pages/ProductDetails'
 
 const AppRoutes = () => {
     const auth = useAppSelector(authSelector);
@@ -58,6 +59,8 @@ const AppRoutes = () => {
         <div className='pt-[60px] md:pt-[50px] min-h-screen'>
             <Routes>
                 <Route path="/" element={<Home />} />
+                <Route path="/:id" element={<ProductDetails />} />
+
                 <Route element={<ProtectedRoute redirectPath="/login" />}>
                     <Route path="/cart" element={<Cart />} />
                 </Route>
