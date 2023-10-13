@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import { fetchProductDetails } from '../store/services/products';
-import { Product, Review } from '../utils/types';
+import { Product, Review } from '../utils/types/product';
 import Error from '../components/Error';
 import Loading from '../components/Loading';
 import { MinusOutlined, PlusOutlined, ShoppingOutlined, StarFilled } from '@ant-design/icons';

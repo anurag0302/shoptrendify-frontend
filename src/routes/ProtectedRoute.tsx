@@ -11,8 +11,8 @@ interface ProtectedRouteProps {
 
 const ProtectedRoute = ({ redirectPath = '/' }: ProtectedRouteProps) => {
   const auth = useAppSelector(authSelector);
-  console.log(auth)
-  if (!auth.isLoggedin) {
+  console.log(auth.isLoggedIn)
+  if (!auth.isLoggedIn) {
     return <Navigate to={redirectPath} />;
   }
   return <Outlet />;

@@ -31,7 +31,6 @@ const Home = () => {
     useEffect(() => {
         const getProd = async () => {
             const data = await Api.get('home');
-            console.log(data)
             setHomeData(data.data)
         }
         getProd()
@@ -40,7 +39,6 @@ const Home = () => {
     useEffect(() => {
         const getProd = async () => {
             const data = await Api.get('products');
-            console.log(data, 'sc')
             settemp(data.data)
         }
         getProd()

@@ -1,7 +1,7 @@
 // src/services/api.ts
 import { AxiosError, AxiosResponse, isAxiosError } from 'axios'; // Import AxiosResponse
 import Api from '../../services/apis/api';
-import { Product } from '../../utils/types';
+import { Product } from '../../utils/types/product';
 
 
 export const fetchProductDetails = async (productId: string) => {

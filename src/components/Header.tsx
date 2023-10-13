@@ -31,6 +31,7 @@ function Header({ user }: HeaderProps) {
           <div className=' ml-2 md:mr-2 hover:cursor-pointer text-xl flex items-center hover:text-cuGreen'>
             <UserOutlined />
           </div>
+          {user && <p>{user.name}</p>}
           <div className=' ml-2 md:mr-2 hover:cursor-pointer text-xl flex items-center hover:text-cuGreen'>
             <ShoppingCartOutlined />
           </div>

@@ -3,7 +3,7 @@ import React from 'react'
 
 const Loading = () => {
   return (
-    <div className='w-full h-[100vh] bg-black flex justify-center items-center opacity-30'>
+    <div className='w-full h-[100vh] bg-black flex justify-center items-center opacity-30 fixed z-20'>
         <LoadingOutlined className='text-white text-5xl'/>
     </div>
   )
